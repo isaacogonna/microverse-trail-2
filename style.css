@@ -1,19 +1,24 @@
+#image {
+  background-color: blueviolet;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+img {
+  width: 60em;
+
+}
 #title {
     font-size: 400%;
     width: 60vmax;
-  }
+    color: blue;
+}
 
 .center {
     margin: auto;
     padding: auto;
     text-align: center;
-  }
-
-#image {
-    max-width: 70%;
-    height: auto;
-    display: block;
-  }
+}
 
 
   @media only screen and (min-width:480px)
